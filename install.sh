@@ -15,5 +15,6 @@ mkdir ~/.config/bspwm
 mkdir ~/.config/polybar
 cp /etc/polybar/config.ini ~/.config/polybar/config.ini
 git clone https://github.com/veerail/bspwm-install.git
-mv ./foo/Configs/bspwmrc ~/.config/bspwm/bspwmrc
-mv ./foo/Configs/sxhkdrc ~/.config/bspwm/sxhkdrc
+mv ./bspwm-install/Configs/bspwmrc ~/.config/bspwm/bspwmrc
+mv ./bspwm-install/Configs/sxhkdrc ~/.config/bspwm/sxhkdrc
+rm -rf ./bspwm-install/
