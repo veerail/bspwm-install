@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Autostarts
+nitrogen --restore &&
+sxhkd -c ~/.config/bspwm/sxhkdrc &&
+picom &&
+
+# WM Configs
+bspc 
