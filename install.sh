@@ -18,3 +18,5 @@ git clone https://github.com/veerail/bspwm-install.git
 mv ./bspwm-install/Configs/bspwmrc ~/.config/bspwm/bspwmrc
 mv ./bspwm-install/Configs/sxhkdrc ~/.config/bspwm/sxhkdrc
 rm -rf ./bspwm-install/
+
+yes_or_no "do you want the shell config too" && ./shell-config.sh
