@@ -14,6 +14,6 @@ sudo pacman -S bspwm polybar sxhkd dmenu nitrogen git picom
 mkdir ~/.config/bspwm
 mkdir ~/.config/polybar
 cp /etc/polybar/config.ini ~/.config/polybar/config.ini
-git clone xxx.yyy/zzz
+git clone https://github.com/veerail/bspwm-install.git
 mv ./foo/Configs/bspwmrc ~/.config/bspwm/bspwmrc
 mv ./foo/Configs/sxhkdrc ~/.config/bspwm/sxhkdrc
