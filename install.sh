@@ -15,7 +15,9 @@ mkdir ~/.config/bspwm
 mkdir ~/.config/polybar
 cp /etc/polybar/config.ini ~/.config/polybar/config.ini
 git clone https://github.com/veerail/bspwm-install.git
-mv ./Configs/bspwmrc ~/.config/bspwm/bspwmrc
-mv ./Configs/sxhkdrc ~/.config/bspwm/sxhkdrc
+cp ./Configs/bspwmrc ~/.config/bspwm/bspwmrc
+cp ./Configs/sxhkdrc ~/.config/bspwm/sxhkdrc
+sudo chmod +X ~/.config/bspwm/bspwmrc
+sudo chmod +X ~/.config/bspwm/sxhkdrc
 
 yes_or_no "do you want the shell config too (WARNING: This will remove your current zsh config)" && ./shell-config.sh
